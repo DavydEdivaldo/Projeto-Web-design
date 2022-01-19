@@ -1,0 +1,487 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+/*classes auxiliares*/
+.conteiner{
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 10%;
+}
+.w60{
+	width: 60%;
+	float: left;
+}
+.w40{
+	width: 40%;
+	float: left;
+}
+.w50{
+	width: 50%;
+	float: left;
+}
+.w33{
+	float: left;
+	width: 33.33%;
+	padding: 5px 0;
+}
+.center{text-align: center;}
+.clear{ clear: both; }
+
+/*classes do meu site*/
+header{
+	padding: 8px 0;
+}
+.logo{
+	float: left;
+}
+.logo h2{
+	font-weight: normal;
+	font-size: 25px;
+}
+.logo a{
+	color: black;
+	text-decoration: none;
+}
+
+nav.menu-desktop li.selected{ font-weight: bold; }
+nav.menu-desktop{
+	float: right;
+}
+nav.menu-desktop ul{
+	position: relative;
+	top: 10px;
+}
+nav.menu-desktop li{
+	font-weight: lighter;
+	padding: 0 10px;
+	display: inline-block;
+}
+nav.menu-desktop a{
+	color: black;
+	text-decoration: none;
+}
+nav.menu-desktop a:hover{text-decoration: underline;}
+
+/*jpg*/
+section.jpg{
+	width: 100%;
+	height: 500px;
+	padding: 100px 0 100px 0;
+	background-image: url('../imagens/chicago3.fw.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+section.jpg h2{
+	text-align: center;
+	color: #00B2B2;
+	font-size: 40px;
+	font-weight: normal;
+}
+section.jpg p{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.saiba-mais{
+	text-align: center;
+	margin-top: 80px;
+}
+.saiba-mais a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	background:#00B2B2;
+	font-size: 20px;
+	font-weight: normal;
+}
+section.diferenciais{
+	padding: 30px 0 ;
+	text-align: center;
+}
+.line-text{
+	position: relative;
+	display: inline-block;
+	color: #00BFFF;
+}
+.line-text > div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 3px;
+	background: #00BFFF;
+}
+.line-text h2{
+	font-weight: normal;
+	font-size: 27px;
+}
+.icones-diferenciais{
+	margin-top: 30px;
+}
+.box-icone-single{
+	float: left;
+	width: 33.3%;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+.box-icone-single h2{
+	color: #353526;
+	font-size: 50px;
+}
+.box-icone-single p{
+	color: #353526;
+	font-weight: lighter;
+	font-size: 16px;
+}
+section.equipe{
+	padding: 30px 0;
+	background: rgb(225,225,225);
+}
+section.equipe > .conteiner{
+	display: flex;
+	 flex-wrap: wrap;
+
+}
+.equipe-conteiner{
+	width: 50%;
+}
+.história-conteiner{
+	width: 50%;
+}
+.história-conteiner p{
+	color:#353526;
+	font-size: 15px;
+	margin-top: 10px; 
+}
+.avatar{
+	margin-top: 15px;
+}
+.descriçao{
+	padding: 0 10px;
+	width: calc(100% - 70px);
+	display: inline-block;
+}
+.img-avatar{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-size: 100% 100%;
+}
+.descriçao h3{
+	color:#353526;
+	font-size: 16px;
+}
+.descriçao p{
+	color:#353526;
+	font-style: italic;
+	font-size: 15px;
+}
+section.inscriçao{
+	background: #4DD2FF;
+	padding: 20px 0;
+}
+.texto{
+	color: white;
+	font-size: 28px;
+}
+.form input[type=text]{
+	width: calc(100% - 130px);
+	height: 40px;
+	background: white;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+.form input[type=submit]{
+	width: 130px;
+	height: 40px;
+	background: #00FFFF;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+}
+section.cards{
+	padding: 30px 0;
+}
+.cards-sings{
+	width: 33.33%;
+	float: left;
+	padding: 0 40px;
+	
+}
+.cards-sings img{
+	width: 100%;
+}
+.cards-sings h3{
+	margin-top: 3px;
+	font-weight: normal;
+	font-size: 19px;
+}
+.cards-sings p{
+	font-style: italic;
+	font-size: 15px;
+	padding: 7px 0;
+	border-bottom: 2px solid #ccc;
+}
+footer.footer1{
+	background: #4DD2FF;
+	padding: 20px 0;
+	color: white;
+}
+footer.footer1 h2{
+	font-weight: normal;
+	font-size: 25px;
+}
+footer.footer1 p{
+	margin-top: 8px;
+	font-weight: lighter;
+	font-size: 16px;
+}
+footer.footer1 a{
+	display: block;
+	color: white;
+	padding-bottom: 3px;
+}
+div.group a{
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 10px;
+}
+footer.footer2{
+	background: #26C9FF;
+	text-align: center;
+	color: white;
+	padding: 15px 0;
+	font-size: 15px;
+}
+section.sobre-img{
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+.sobre-text{
+	padding: 15px 0;
+	font-size: 17px;
+	color: #00B2B2;
+}
+.sobre-text p{
+	color: white;
+	font-weight: lighter;
+	font-size: 15px;
+}
+section.sobre{
+	padding: 30px 0;
+}
+.sobre img{
+	float: left;
+	max-width: 100%;
+	width: 40%;
+	height: 380px;
+	padding: 0 20px;
+}
+.sobre-conteudo p{
+	padding: 10px 10px;
+	font-size: 14px;
+	font-weight: lighter;
+	float: left;
+	width: 50%;
+}
+section.paralax{
+	padding: 30px 0;
+	width: 100%;
+	min-height: 200px;
+	background-image: url('../imagens/chicago3.fw.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+section.paralax h2{
+	border: 1px solid #00B2B2;
+	padding: 5px 20px;
+	color: black;
+	font-size: 18px;
+	display: inline-block;
+}
+section.paralax p{
+	margin-top: 10px;
+	color: white;
+}
+section.imagens-equipe{
+	padding: 40px 0;
+}
+.equipe-circulos{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.equipe-circulos-single{
+	text-align: center;
+	padding: 0 20px;
+	width: 33.33;
+}
+.equipe-circulos-single h2{
+	margin-top: 8px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.equipe-circulos-single p{
+	font-weight: lighter;
+}
+.equipe-avatar{
+	position: relative;
+	width: 60%;
+	padding-top: 60%;
+	margin: 0 auto;
+}
+.equipe-avatar-conteiner{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	background-color: #ccc;
+	background-size: 100% 100%;
+}
+
+section.sobre-final{
+	background-color: rgb(225,225,225);
+	border-top: 2px solid rgb(210,210,210);
+	padding: 20px 0; 
+}
+section.sobre-final p{
+	margin-top: 11px;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.cards-text{
+	position: relative;
+	width: 80%;
+	margin-top: 20px;
+}
+.cards-text img{
+	max-width: 100%;
+	
+}
+.cards-text h3{
+	color: white;
+	font-weight: normal;
+	font-size: 20px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+section.contato{
+	padding: 30px 0;
+}
+.formulario h2{
+	background: #DDDDDD;
+	text-align: center;
+	color: #ACAC9D;
+	font-size: 17px;
+	font-weight: normal;
+	border-left: 5px solid #ccc;
+	padding: 4px 0;
+}
+section.contato .w50,section.contato .w100{
+	padding:0 10px;
+}
+.formulario form{
+	margin-top: 10px;
+}
+.formulario input[type=text],.formulario input[type=email]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.formulario textarea{
+	width: 100%;
+	height: 120px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 10px;
+	resize: vertical;
+}
+.tags-form{
+	padding-left: 50px;
+}
+.tags-form h2{
+	font-weight: normal;
+}
+.tags-form p{
+	font-weight: lighter;
+}
+.tags-form p.tag-contato{
+	margin-top: 10px;
+	padding: 7px 4px;
+	color: white;
+	text-align: center;
+	background: #00B2B2;
+}
+.formulario input[type=submit]{
+	padding: 3px 7px;
+	cursor: pointer;
+	background: #00B2B2;
+	color: white;
+	border: 2px solid;
+}
+
+
+/*responsividade*/
+@media screen and (max-width: 760px){
+	.tags-form{
+	padding-left: 0;
+}
+	.formulario input[type=text],.formulario input[type=email]{
+	margin-bottom: 0px;	
+}
+.formulario textarea{
+	margin-bottom: 0px;	
+}
+	.sobre-conteudo p{
+	width: 100%;
+}
+	.sobre img{
+	width: 100%;	
+}
+	.cards-sings{width: 100%;}
+	.w50,.w33, .w60, .w40, .w100{width: 100%; margin-bottom: 20px;}
+	.box-icone-single {
+		width: 100%;
+	}
+.equipe-conteiner{
+	width: 100%;
+}
+.história-conteiner{
+	width: 100%;
+	margin-top: 40px;
+}
+
+.equipe-circulos-single{
+	padding: 0 8px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+}
+@media screen and (max-width: 760px){
+	.cards-text{
+	width: 100%;
+	
+}
+}
+@media screen and (max-width: 1440px){
+	section.contato{
+	width: 100%;
+}
+}
